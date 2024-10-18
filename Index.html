@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="srf.css">
+</head>
+<body>
+    <section class="container">
+        <header>Student Registration </header>
+        <form action="#" class="form">
+            <div class="input-box">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter full name" required />
+            </div>
+            <div class="input-box">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter email address" required />
+            </div>
+            <div class="input-box">
+                <label>Birth Date</label>
+                <input type="date" placeholder="Enter birth date" required />
+              </div>
+              <div class="input-box address">
+                <label>Address</label>
+                <input type="text" placeholder="Enter street address" required />
+                </div>
+            <div class="input-box">
+                <label for="phone">Student Phone Number</label>
+                <input type="tel" id="phone" placeholder="Enter phone number" required />
+            </div>
+            <div class="input-box">
+                <label for="phone">Parent Phone Number</label>
+                <input type="tel" id="phone" placeholder="Enter phone number" required />
+            </div>
+            <tr>
+                <h3>Courses</h3>
+                    <div class="courses-option">
+                        <div class="courses">
+                <input type="radio" id="CSE" name="Courses" value="CSE" required />
+                <label for="CSE">CSE</label>
+                </div>
+                <div class="courses">
+                <input type="radio" id="ECE" name="Courses" value="ECE" required />
+                <label for="ECE">ECE</label>
+                </div>
+                <div class="courses">
+                <input type="radio" id="EEE" name="Courses" value="EEE" required />
+                <label for="EEE">EEE</label>
+                </div>
+                <div class="courses">
+                <input type="radio" id="IT" name="Courses" value="IT" required />
+                <label for="IT">IT</label>
+            </div>
+            </div>
+        </div>
+         
+            <tr>
+                <h3>City</h3>
+                <td><input type="text" name="City" />
+                </td>
+                </tr>
+            <tr>
+                <h3>Pin Code</h3>
+                <td><input type="text" name="Pin_Code" maxlength="6" />
+                </td>
+                </tr>
+                 
+            <div class="gender-box">
+                <h3>Gender</h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="male" name="gender" value="male" required />
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="female" name="gender" value="female" />
+                        <label for="female">Female</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="other" name="gender" value="other" />
+                        <label for="other">Other</label>
+                    </div>
+                </div>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+</body>
+</html>
